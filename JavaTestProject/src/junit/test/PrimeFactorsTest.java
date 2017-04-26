@@ -17,6 +17,7 @@ public class PrimeFactorsTest {
 	public void testFactorsOf() 
 	{
 		assertThat(pf.factorsOf(1), empty());
+		/*assertThat(pf.factorsOf(1), empty());
 		assertThat(pf.factorsOf(2), contains(2));
 	    assertThat(pf.factorsOf(3), contains(3));
 	    assertThat(pf.factorsOf(4), contains(2,2));
@@ -26,7 +27,7 @@ public class PrimeFactorsTest {
 	    assertThat(pf.factorsOf(8), contains(2,2,2));
 	    assertThat(pf.factorsOf(9), contains(3,3));
 	    assertThat(pf.factorsOf(2*2*3*3*5*7*11*11*13), 
-	    		contains(2,2,3,3,5,7,11,11,13));
+	    		contains(2,2,3,3,5,7,11,11,13));*/
 	}
 
 }
